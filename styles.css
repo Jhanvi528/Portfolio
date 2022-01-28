@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  font-weight: 300;
+  margin: 0%;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: #fbeeca;
+  padding: 1% 5%;
+  z-index: 1;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.navbar:hover {
+  background-color: white;
+}
+.nav-color-change {
+  background-color: white;
+  box-shadow: 5px -1px 12px -5px grey;
+}
+.navbar div {
+  font-size: 1.5rem;
+}
+.navbar ul {
+  justify-content: space-between;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+.navbar a {
+  color: black;
+  text-decoration-line: none;
+  margin: 0% 3%;
+}
+.navbar a:hover {
+  color: #007c89;
+  text-decoration-line: underline;
+}
+.portfolio-name a:hover {
+  color: black;
+  text-decoration-line: none;
+}
+
+#intro {
+  background-color: #fbeeca;
+  display: flex;
+  justify-content: center;
+  padding: 6% 8%;
+}
+#intro div.intro-text {
+  width: 50%;
+}
+.button-div {
+  display: flex;
+}
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  background: #007c89;
+  padding: 3% 5%;
+}
+.btn a {
+  text-decoration: none;
+  font-family: Courier New;
+  color: #ffffff;
+}
+.btn:hover {
+  background: #09a6b8;
+  text-decoration: none;
+}
+.myButton {
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background-color: transparent;
+  border-radius: 5%;
+  border: 1px solid #566963;
+  font-family: Courier New;
+  font-size: 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  padding: 3% 8%;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2b665e;
+  margin-left: 8%;
+}
+.myButton a {
+  text-decoration: none;
+  font-family: Courier New;
+  color: black;
+}
+.myButton:hover {
+  background-color: #007c89;
+  color: #ffffff;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+#intro .intro-img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  align-items: center;
+  padding-top: 4.5%;
+  width: 40%;
+}
+#intro .intro-img img {
+  width: 80%;
+  height: 75%;
+
+  border-radius: 100%;
+}
+
+#intro div.intro-text .intro-text-desc {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#intro div.intro-text div h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+#intro p {
+  color: #007c89;
+  font-size: 1rem;
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana,
+    sans-serif;
+  padding-bottom: 8%;
+}
+
+#hobbies {
+  padding: 5% 4%;
+  padding-bottom: 0%;
+}
+#hobbies h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+#hobbies .hobbies-outer-div {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#hobbies .hobby-div {
+  width: 180px;
+  height: 180px;
+  display: flex;
+
+  justify-content: center;
+  background-color: #f6f6f4;
+  border-radius: 100%;
+}
+#hobbies .hobby-div div {
+  width: 180px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#hobbies .hobby-main-div p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ff7f3f;
+  margin: 15% 0%;
+}
+#hobbies .div-1,
+#hobbies .div-3 {
+  padding-top: 8%;
+}
+#hobbies .div-2,
+#hobbies .div-4 {
+  padding-top: 4%;
+}
+
+#skills {
+  padding-top: 4%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+#skills .skills-img {
+  width: 40%;
+}
+.main-skills-div {
+  width: 80%;
+  background-color: #fbeeca;
+}
+#skills h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.creating-division-element {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-evenly;
+}
+.jg-review-div {
+  display: flex;
+  flex-direction: column;
+}
+.jg-review-title {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.jg-reviews {
+  flex-direction: row;
+  display: flex;
+}
+.jg-review-bar-div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.jg-review-bar {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  display: block;
+  height: 10px;
+  width: 300px;
+  margin-right: 4%;
+}
+
+.jg-review-percent {
+  background: linear-gradient(to left, #007c89, #09a6b8);
+  box-shadow: 0 3px 2px -3px #18c5d8, 0 2px 2px #18c5d8;
+  border-radius: 20px;
+  display: flex;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+  opacity: 1;
+}
+
+.container {
+  background: #232931;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  margin-top: 10%;
+  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.rightbox {
+  padding: 0em 34rem 0em 0em;
+  height: 100%;
+}
+
+.rb-container {
+  font-family: "PT Sans", sans-serif;
+  justify-content: center;
+}
+
+
+.rightbox  h1{
+  color: white;
+  text-align: end;
+  font-size: 2.5rem;
+
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  margin-left: 10em;
+  min-height: 50px;
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background: #09a6b8;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+  border-color: #232931;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  color: #09a6b8;
+  position: relative;
+}
+ul.rb li .timestamp a {
+  color: #50d890;
+  text-decoration-line: none;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.item-title {
+  color: #fff;
+}
+
+footer {
+  margin-top: 10%;
+  background-color: #f6f6f4;
+  padding: 1% 0%;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+}
+footer h2 {
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.contact-icons a {
+  margin: 0% 3%;
+}
+.contact-icons img:hover {
+  z-index: 2;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+  width: 104%;
+}
+
+footer h4 {
+  font-weight: 100;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #intro {
+    padding-top: 10%;
+    flex-direction: column-reverse;
+  }
+  #intro div.intro-text {
+    width: 100%;
+  }
+}
