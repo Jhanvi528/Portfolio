@@ -131,6 +131,10 @@ body {
   font-weight: bolder;
 }
 
+.name-typing{
+  color: #ff7f3f;
+}
+
 #intro p {
   color: #007c89;
   font-size: 1rem;
@@ -193,9 +197,7 @@ body {
   width: 100%;
   justify-content: center;
 }
-#skills .skills-img {
-  width: 40%;
-}
+
 .main-skills-div {
   width: 80%;
   background-color: #fbeeca;
@@ -215,6 +217,12 @@ body {
 .jg-review-div {
   display: flex;
   flex-direction: column;
+}
+
+#skills .skills-img img{
+  width: 400px;
+  height: 400px;
+
 }
 .jg-review-title {
   display: flex;

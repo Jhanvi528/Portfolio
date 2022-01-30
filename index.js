@@ -18,7 +18,12 @@ window.onscroll = () => {
   }
 }
 
-//name text
+//name typing
+const typed=new Typed(".name-typing",{
+  strings:["Jhanvi"],
+  typeSpeed: 500,
+  loop: true,
+  backDelay: 1000,
+  backSpeed: 400,
 
-var nameLength=document.querySelector(".intro-text h1 span").innerHTML.length;
-var name=document.querySelector(".intro-text h1 span").innerHTML;
+})
